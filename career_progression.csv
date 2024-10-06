@@ -1,23 +1,36 @@
 ﻿year,month,role,skills,type,notable_acomplishment
-2009,September,General Clerk,General exposure to commercial lending,Career,"Piloted electronic submission process, promoted from Clerk II to Clerk III after 6 monhts"
-2012,July,Loan Processing Assistant,Lead for clerical staff,Career,Led document imaging project
+2009,September,General Clerk II,General exposure to commercial lending,Career,Start of SBA Career
+2010,March,General Clerk III,Piloted electronic submission process,Career,Promoted to Clerk III after 6 months
+2012,January,General Clerk III,"Project planning and reporting, delegating",Career,Led document imaging project
+2012,July,Loan Processing Assistant,Lead for clerical staff,Career,Promoted to Loan Processing Assistant
 2013,May,Course: Leading Without Authority course,Learned to leverage influence to achieve results,Learning,
 2014,July,Course: Financial Accounting for Lenders course,Accounting basics in the context of financial analysis for commercial lending...,Learning,
-2014,December,Jr. Loan Specialist (GS-9),Commercial Loan Underwriting,Career,Designated as Lead for all Jr. Loans Specialists and Loan Processing Assistants
+2014,December,Jr. Loan Specialist (GS-9),Commercial Loan Underwriting,Career,"Promoted to GS 9 Loan Specialist, Designated as Lead for all Jr. Loans Specialists and Loan Processing Assistants"
+2015,March,Jr. Loan Specialist (GS-9),"Data analysis, discovery, excel",Career,Retired FoxPro reports and moved to excel
 2015,June,"CSBS, Real Estate Appraisal Review ",Reviewing commercial real state appraisals from a regulatory viewpoint...,Learning,
 2016,March,"NADCO, Credit Risk Institute",Underwriting SBA loans for eligibility and credit,Learning,
-2016,August,Loan Specialist (GS-11): Business Analyst,"Building reports, defining software requirements, FoxPro, Visio...",Career,Maintained legacy application while working with developers to build modern application
-2017,August,Loan Specialist (GS-12): Business Analyst,"Building reports, defining software requirements, FoxPro, Visio...",Career,Designed document management system to migrate off of vendor provided solution
+2016,August,Loan Specialist (GS-11): Business Analyst,"Building reports, defining software requirements, FoxPro, Visio...",Career,"Promoted to GS 11 Loan Specialist, Working as Business Analyst"
+2017,February,Loan Specialist (GS-11): Business Analyst,"Business analysis, process mapping, data mapping",Career,Workflow application I helped design was launched
+2017,August,Loan Specialist (GS-12): Business Analyst,"Building reports, defining software requirements, FoxPro, Visio...",Career,"Promoted to GS 12 Loan Specialist, Working as Business Analyst"
+2018,December,Loan Specialist (GS-12): Business Analyst,"Design thinking, software testing, project planning",Career,Designed document management system to migrate off of vendor provided solution
 2019,November,Data Driven Decision Making,"Presenting analysis, exploring problems with data",Learning,
 2019,February,Software Product Management,"Agile Methods, Backlog Refinement",Learning,
-2019,March,Financial Analyst: Software Products and Data,"Building dashboards, managing software product development, data modeling, compliance...",Career,Developed a Loan Decision-Making Tool that reduced loan application review times by 40%
+2019,March,Financial Analyst: Software Products and Data,"Building dashboards, managing software product development, data modeling, compliance...",Career,
+2020,February,Financial Analyst: Software Products and Data,"UX, intuitive design, data analysis",Career,Developed a Loan Decision-Making Tool that reduced loan application review times by 40%
 2020,May,Analyzing Data with PowerBI ,"DAX, Data models, Visualizations, power query",Learning,
+2021,January,Financial Analyst: Software Products and Data,"DAX, Data models, Visualizations, Analytics",Career,Moved all  reports from Excel to PowerBI interactive dashboards
 2021,November,Evaluating and Presenting Analysis ,"Stakeholder engagement, summarizing findings",Learning,
+2021,July,Financial Analyst: Software Products and Data,"Analytics, operations management, risk management",Career,"Designed and implemented a targeted review process, reducing backlog by 66% and turn times by 56% within three months."
 2022,September,Professional Scrum Master I (PSM I),Scrum events and methods,Learning,
 2022,September,Google Project Management Professional Certificate ,"Project charters, risk assessment, project planning and implementation...",Learning,
 2022,September,Google Data Analytics Professional Certificate ,"Data cleaning, ethics, visualizations, presentation...",Learning,
 2022,September,Agile Leadership ,"Organizational development, strategy and operations, change management, adaptability...",Learning,
+2023,January,Financial Analyst: Software Products and Data,"Interviewing, Hiring, Project planning",Career,Built team to work on consolidated document management system
 2023,June,Agile Project Management ,"Project plans, compliance with Federal regulations in an agile environment, executing agile plans...",Learning,
 2023,May,Certified SAFe® 6 Product Owner/Product Manager,"SAFe Agile processes, design thinking, iteration planning...",Learning,
+2023,October,Financial Analyst: Software Products and Data,"Data modeling, PowerBI, DAX, Visualization",Career,"Automated staff production reports, reducing compilation time from 2 days to minutes with a click of a button."
 2023,December,Python for Everybody,"APIs, SQL, obtaining and using data with Python",Learning,
+2024,January,Financial Analyst: Software Products and Data,"Iterative development, Agile User Stories, Acceptance criteria, testing, UX",Career,Document management system built to consolidate 4 systems into 1
+2024,March,Financial Analyst: Software Products and Data,"Data modeling, PowerBI, DAX, Visualization, Analytics",Career,"Created Power BI dashboards for real-time lender performance assessment, replacing manual calculations that took up to 1 hour per lender."
+2024,September,Financial Analyst: Software Products and Data,"QA, Code Review, Technical Documentation, Software Analysis",Career,Documented previously undocumented legacy software
 2024,August,Pursuing Master of Applied Business Analytics,"Python, SQL, Tableau, SAS...",Learning,
