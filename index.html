@@ -19,6 +19,7 @@
         body { font-family: Arial, sans-serif; }
         .hero { padding: 50px; text-align: center; background: #f8f9fa; }
         .project { margin-bottom: 20px; }
+        .card-body { text-align: left; } 
         .project img {
             cursor: pointer;
             transition: transform 0.3s ease;
@@ -46,6 +47,16 @@
             visibility: visible;
             opacity: 1;
         }
+        .card {
+        min-height: 800px; /* Adjust this value based on  tallest card */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid #ddd
+        padding: 15px;
+        }
+        .card-body {
+            flex-grow: 1;
     </style>
 </head>
 <body>
@@ -57,75 +68,99 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Connect with me</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a href="https://www.linkedin.com/in/tyler-emmett-81444379/" target="_blank" class="nav-link">
-                        <i class="fab fa-linkedin" style="font-size: 24px; margin-right: 10px;"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://github.com/tyemmett" target="_blank" class="nav-link">
-                        <i class="fab fa-github" style="font-size: 24px; margin-right: 10px;"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="mailto:tyleremmett86@gmail.com" class="nav-link">
-                        <i class="fas fa-envelope" style="font-size: 24px;"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
+                    <li class="nav-item">
+                        <a href="https://www.linkedin.com/in/tyler-emmett-81444379/" target="_blank" class="nav-link">
+                            <i class="fab fa-linkedin" style="font-size: 24px; margin-right: 10px;"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/tyemmett" target="_blank" class="nav-link">
+                            <i class="fab fa-github" style="font-size: 24px; margin-right: 10px;"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="mailto:tyleremmett86@gmail.com" class="nav-link">
+                            <i class="fas fa-envelope" style="font-size: 24px;"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-<div id="about" class="container mt-5 text-start">
+    <div id="about" class="container mt-5 text-start">
         <h2>About Me</h2>
-        <p>I am Tyler Emmett, a professional with experience in Python, SQL, data visualization with PowerBI and Tableau, and data-driven solutions. I have a background in analytics and extensive experience in product management and data analysis. I am passionate about the intersection of people, data and software.</p>
+        <p>I am Tyler Emmett, a professional with experience in Python, SQL, data visualization with PowerBI and Tableau, and data-driven solutions. I have a background in analytics and extensive experience in product management and data analysis. I am passionate about the intersection of people, data, and software.</p>
         <p> Enrolled in University of Arkansas - Sam M Walton College of Business: Master of Applied Business Analytics. </p>
         <p> BS Business Administration: IT Management, Western Governors University </p>
-        <p> Currently working as a Financial Analyst at US Small Business Administration with a focus on software innovation, data analytics and compliance in the financial services industry.</p>
-        <p>I am currently learning how to use GitHub, and trying to expand my Python skills. The projects I am creating on this page will use Python primarily. This is also the first website I have built in 20 years, so bear with me while I learn.</p>
+        <p> Currently working as a Financial Analyst at US Small Business Administration with a focus on software innovation, data analytics, and compliance in the financial services industry.</p>
+        <p>I am currently learning how to use GitHub, and trying to expand my Python skills. The coding projects I am creating on this page will use Python primarily. This is also the first website I have built in 20 years, so bear with me while I learn.</p>
         <a href="temmett_resume.pdf" target="_blank" class="btn btn-secondary mt-3">View My Full Resume</a>
-</div>
+    </div>
 
     <div id="projects" class="container text-center mt-5">
         <h2 class="mt-5">Projects</h2>
         <div class="row">
-            <!-- First Project -->
+            <!-- Career Timeline App -->
             <div class="col-md-6 project">
                 <div class="card">
                     <a href="https://portfolio-nup8ugjegnu8yrf9amf2n7.streamlit.app/" target="_blank"><img src="career_timeline_screenshot.png" class="card-img-top img-fluid" alt="Career Timeline App Screenshot"></a>
                     <div class="card-body">
                         <h3 class="card-title">Career Timeline App</h3>
-                        <p class="card-text">An interactive app to explore my career timeline with key achievements and skills.</p>
+                        <p class="card-text">
+                            <strong>Project Objective:</strong> This interactive app visualizes my career progression and learning journey in a creative and engaging way. The app combines key milestones, such as major career achievements (e.g., promotions and significant projects) and learning points (courses and skills acquired). Users can interact with the timeline to explore specific events and filter to show only IT-related milestones starting from 2016. The visualization is designed to offer a comprehensive view of my professional growth, emphasizing both learning and career achievements.
+                        </p>
+                        <p class="card-text">
+                            <strong>Skills Highlighted:</strong> 
+                            Interactive Data Visualization (Altair),
+                            Web Application Development (Streamlit),
+                            Data Manipulation (Pandas),
+                            Dynamic Filtering and Interactivity,
+                            Creative Presentation
+                        </p>
                         <a href="https://portfolio-nup8ugjegnu8yrf9amf2n7.streamlit.app/" target="_blank" class="btn btn-primary">View Interactive Version</a>
-                        <span class="tooltip-text">Click to open interactive version</span>
                     </div>
                 </div>
             </div>
-           <!-- Second Project -->
+
+           <!-- Population Data Notebook -->
             <div class="col-md-6 project">
                 <div class="card">
                     <a href="https://colab.research.google.com/github/tyemmett/portfolio/blob/main/Populationdata.ipynb" target="_blank"><img src="population_screen_shot.png" class="card-img-top img-fluid" alt="Population Data Notebook"></a>
                     <div class="card-body">
                         <h3 class="card-title">Population Data Notebook</h3>
-                        <p class="card-text">Included as a notebook demonstrating data cleaning thought process and code. Visual is at the bottom of the notebook.</p>
-                        <a href="https://portfolio-nup8ugjegnu8yrf9amf2n7.streamlit.app/" target="_blank" class="btn btn-primary">View Notebook</a>
-                        <span class="tooltip-text">Click to open notebook</span>
+                        <p class="card-text">
+                            <strong>Project Objective:</strong> This notebook demonstrates advanced data cleansing techniques using a real-world dataset on population data. The project showcases a comprehensive approach to inspecting, cleaning, and transforming data for analysis. The process included identifying and handling null values, separating and cleaning footnote information, converting data types, and extracting geographic information. A geolocation dataset was merged to enhance the data, and mismatches were resolved using a custom dictionary. The notebook concludes with an interactive visualization designed to present the cleansed data in a visually engaging way, emphasizing the importance of thorough data preparation in the analysis pipeline.
+                        </p>
+                        <p class="card-text">
+                            <strong>Skills Highlighted:</strong>
+                            Cleaning &amp; Transformation (Pandas, NumPy),
+                            Data Inspection &amp; Null Handling,
+                            DataFrame Manipulation &amp; Merging,
+                            Geographic Data Handling (us library),
+                            Interactive Data Visualization (Plotly)
+                        </p>
+                        <a href="https://colab.research.google.com/github/tyemmett/portfolio/blob/main/Populationdata.ipynb" target="_blank" class="btn btn-primary">View Notebook</a>
                     </div>
                 </div>
             </div>
+
+            <!-- Call Center Performance Chart -->
+            <div class="col-md-6 project">
+                <div class="card">
+                    <a href="call_center_wait_times.pdf" target="_blank"><img src="call_center_wait_times.png" class="card-img-top img-fluid" alt="Call Center Wait Times Chart"></a>
+                    <div class="card-body">
+                        <h3 class="card-title">Managing Call Center Performance During the COVID-19 Crisis</h3>
+                        <p class="card-text">
+                            <strong>Project Objective:</strong> This project aimed to analyze and visualize call center wait times from 2019 to 2024, highlighting the impact of the COVID-19 pandemic and the company’s strategic recovery efforts. Using historical data, I illustrated how the pandemic caused a surge in customer inquiries and increased demand for services, leading to prolonged wait times across IT Support, Sales, and Customer Service departments. By visualizing the data, I demonstrated the effectiveness of the company's hiring campaign, showing how targeted staffing interventions successfully reduced wait times back to pre-pandemic levels and maintained service quality.
+                        </p>
+                        <p class="card-text">
+                            <strong>Skills Highlighted:</strong> Data Visualization, Data Storytelling, Scenario Analysis, Strategic Planning
+                        </p>
+                        <a href="call_center_wait_times.pdf" class="btn btn-primary" target="_blank" style="background-color: #007bff; border-color: #007bff;">View PDF</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -134,7 +169,7 @@
         <a href="https://www.linkedin.com/in/tyler-emmett-81444379/" target="_blank">
             <i class="fab fa-linkedin" style="font-size: 40px; margin-right: 10px;"></i>
         </a>
-        <a href="https://github.com/tyemmett" target="_blank">
+                <a href="https://github.com/tyemmett" target="_blank">
             <i class="fab fa-github" style="font-size: 40px; margin-right: 10px;"></i>
         </a>
         <a href="mailto:tyleremmett86@gmail.com">
